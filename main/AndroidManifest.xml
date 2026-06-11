@@ -12,6 +12,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.BookMarket">
         <activity
+            android:name=".ui.CartActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.MyPageActivity"
+            android:exported="false" />
+        <activity
             android:name=".ui.BookDetailActivity"
             android:exported="true" />
         <activity

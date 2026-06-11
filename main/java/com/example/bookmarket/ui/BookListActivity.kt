@@ -24,10 +24,10 @@ class BookListActivity : AppCompatActivity() {
 
         // 최소 4개의 나만의 도서 더미 데이터 생성
         val dummyBooks = listOf(
-            Book(1, "디자인 패턴의 이해", "홍길동", "28,000원", "2026-01-10", R.drawable.book_cover1),
-            Book(2, "Kotlin 실전 가이드", "이순신", "32,000원", "2026-03-15", R.drawable.book_cover2),
-            Book(3, "안드로이드 아키텍처", "강감찬", "35,000원", "2025-11-20", R.drawable.book_cover3),
-            Book(4, "모바일 UI/UX 입문", "유관순", "24,000원", "2026-05-01", R.drawable.book_cover4)
+            Book(1, "디자인 패턴의 이해", "홍길동", "28,000원", "2026-01-10", R.drawable.books_book1),
+            Book(2, "Kotlin 실전 가이드", "이순신", "32,000원", "2026-03-15", R.drawable.books_book2),
+            Book(3, "안드로이드 아키텍처", "강감찬", "35,000원", "2025-11-20", R.drawable.books_book3),
+            Book(4, "모바일 UI/UX 입문", "유관순", "24,000원", "2026-05-01", R.drawable.books_book4)
         )
 
         // 어댑터 초기화 및 클릭 이벤트 구현 (상세 화면으로 데이터 전달)
