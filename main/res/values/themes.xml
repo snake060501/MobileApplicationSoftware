@@ -1,0 +1,15 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.BookMarket" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.BookMarket" parent="Base.Theme.BookMarket" />
+
+    <!-- 팝업 메뉴 스타일 (배경 흰색, 글씨 검정색) -->
+    <style name="ToolbarPopupTheme" parent="ThemeOverlay.AppCompat.Light">
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:background">@android:color/white</item>
+    </style>
+</resources>
